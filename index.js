@@ -11,10 +11,6 @@ import {
 import styles from "./index.styles";
 
 export default class OfflineBar extends Component {
-  static propTypes = {
-    offlineText: PropTypes.string
-  };
-
   animationConstants = {
     DURATION: 800,
     TO_VALUE: 4,
