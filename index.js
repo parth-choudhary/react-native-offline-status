@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import {
-  NetInfo,
   View,
   StatusBar,
   Animated,
@@ -9,6 +7,7 @@ import {
   AppState
 } from "react-native";
 import styles from "./index.styles";
+import { NetInfo } from "react-native";
 
 export default class OfflineBar extends Component {
   animationConstants = {
