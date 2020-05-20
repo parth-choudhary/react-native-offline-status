@@ -7,7 +7,7 @@ import {
   AppState
 } from "react-native";
 import styles from "./index.styles";
-import { NetInfo } from "react-native";
+import NetInfo from "@react-native-community/netinfo";
 
 export default class OfflineBar extends Component {
   animationConstants = {
